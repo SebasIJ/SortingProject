@@ -1,6 +1,8 @@
 #include "ofApp.h"
 #include "vector"
 
+//Sebastian Igua Jimenez 2410370
+
 //Sources used:		https://www.w3schools.com/dsa/dsa_data_arrays.php
 //					https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
 
@@ -193,7 +195,7 @@ void ShuffleArray() {
 		//picks a random number within the array boundaries
 		int j = rand() % (i + 1);
 
-		//swaps the current value with the valuee in the random position
+		//swaps the current value with the value in the random position
 		int hold = Numbers[i];
 		Numbers[i] = Numbers[j];
 		Numbers[j] = hold;
